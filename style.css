@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 350px;
+}
+
+.title {
+  background: #16a085; /* Green background */
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 20px 30px;
+  text-align: center;
+  border-radius: 10px 10px 0 0; /* Rounded top corners */
+}
+
+.form {
+  padding: 30px 25px;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 15px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.row input {
+  background: transparent;
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #e0e0e0; /* Light gray border */ 
+  font-size: 16px;
+  color: #555;
+  padding-left: 50px;
+  transition: all 0.3s ease;
+}
+
+.row input:focus {
+  border-bottom-color: #16a085; /* Green border on focus */
+}
+
+.row i {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #16a085; /* Green icon color */
+  font-size: 20px;
+}
+
+.pass {
+  text-align: right;
+  margin-bottom: 15px;
+}
+
+.pass a {
+  color: #16a085; /* Green link color */
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.pass a:hover {
+  text-decoration: underline;
+}
+
+.button input {
+  background: #16a085; /* Green button background */
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button input:hover {
+  background: #12876f; /* Darker green on hover */
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.signup-link a {
+  color: #16a085; /* Green link color */
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
